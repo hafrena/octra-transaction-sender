@@ -1,4 +1,3 @@
-readme = """
 # Octra Transaction Sender CLI
 
 A lightweight command-line tool for sending and viewing transactions on the Octra blockchain network.
