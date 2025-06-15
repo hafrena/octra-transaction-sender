@@ -1,20 +1,26 @@
+readme = """
 # Octra Transaction Sender CLI
 
-A lightweight Python-based CLI tool to send and view transactions on the Octra blockchain.
+A lightweight command-line tool for sending and viewing transactions on the Octra blockchain network.
 
 ---
 
-## 🧱 Installation / Установка
+## 🔧 Features
 
-1. Clone this repository / Клонируй репозиторий:
+- ✅ Local signing with your private key (never sent anywhere)
+- ✅ Pretty logs with tx hash, from/to, amount, epoch, validator
+- ✅ Status check: pending vs. finalized
+- ✅ View transaction by hash via RPC or Octrascan
+
+---
+
+## 🛠 Requirements
+
+- Python 3.8+
+- Install dependencies:
 
 ```bash
-git clone https://github.com/hafrena/octra-transaction-sender.git
-cd octra-transaction-sender
-Install dependencies / Установи зависимости:
-
 pip install -r requirements.txt
-
 
 Create .env file in the root folder / Создай файл .env в корне проекта:
 
